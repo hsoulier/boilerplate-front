@@ -1,4 +1,4 @@
-import "./style/main.scss"
+import "../style/main.scss"
 import { onResize } from "./utils"
 import { Cursor } from "./utils/Cursor"
 
