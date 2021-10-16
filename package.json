@@ -1,16 +1,17 @@
 {
-  "name": "front-project",
+  "name": "boilerplate-front",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "serve": "vite preview"
   },
   "devDependencies": {
-    "sass": "^1.32.11",
-    "vite": "^2.1.5"
+    "sass": "^1.43.2",
+    "typescript": "^4.3.2",
+    "vite": "^2.6.4"
   },
   "dependencies": {
-    "gsap": "^3.6.1"
+    "gsap": "^3.8.0"
   }
 }
