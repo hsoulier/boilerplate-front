@@ -1,0 +1,43 @@
+@import "./base/variable", "./base/reset";
+
+body {
+	cursor: none;
+}
+.cursor {
+	&__inner,
+	&__outer {
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform: translate3d(-50%, -50%, 0);
+	}
+	&__inner {
+		width: 1rem;
+		height: 1rem;
+		background-color: var(--clr-black);
+		border-radius: 999px;
+		z-index: 999;
+	}
+	&__outer {
+		width: 5rem;
+		height: 5rem;
+		border: 1px solid var(--clr-black);
+		border-radius: 999px;
+		z-index: 999;
+	}
+}
+
+#app {
+	display: grid;
+	height: calc(100 * var(--vh));
+	width: 100%;
+	place-content: center;
+	h1 {
+		text-align: center;
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 5vw;
+		font-weight: 700;
+	}
+}
