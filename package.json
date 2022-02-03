@@ -2,7 +2,7 @@
 	"name": "boilerplate-front",
 	"author": "Hippolyte Soulier",
 	"description": "A fresh boilerplate for frontend developers",
-	"version": "0.0.0",
+	"version": "1.1.0",
 	"scripts": {
 		"dev": "vite",
 		"dev-net": "vite --host",
