@@ -1,20 +1,20 @@
 # Frontend Boilerplate
 
-A simple boilerplate for frontend developers.
+A simple boilerplate for frontend developers. Create mini front-end project with it ! ✨
 
 <br/>
 
 ## Installation and usage
 
--   `yarn` to install all the dependencies
--   `yarn dev` to start the server on `http://localhost:3000`
--   `yarn dev-net` to start the server on the current IP for all your network (for example debug from your mobile/tablet)
+- `yarn` to install all the dependencies
+- `yarn dev` to start the server on `http://localhost:5173` and on your ip address for a network access
 
 ## Dependencies
 
--   SASS
--   GSAP
--   Typescript
+- SASS
+- Tailwind
+- GSAP
+- Typescript
 
 ## Feedback
 
